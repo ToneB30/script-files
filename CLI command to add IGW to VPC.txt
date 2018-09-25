@@ -1,0 +1,3 @@
+CLI command to add IGW to VPC:
+
+aws ec2 attach-internet-gateway --vpc-id "vpc-0e6a25fcab504d6d1" --internet-gateway-id "igw-069cc119115ccf88d" --region us-east-1

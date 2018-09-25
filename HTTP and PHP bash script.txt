@@ -1,0 +1,17 @@
+HTTP and PHP bash script:
+
+#!/bin/bash
+yum install -y httpd24 php70
+service httpd start
+chkconfig httpd on
+
+
+Setting up PHP page in Linux:
+Adding a user to the apache group:
+usermod -a -G apache "username"
+
+Change ownership of the /var/www directory:
+chown -R "username":apache /var/www
+
+creating a PHP in the /var/www/html directory:
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php

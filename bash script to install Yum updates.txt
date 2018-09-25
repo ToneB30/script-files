@@ -1,0 +1,23 @@
+bash script to install Yum updates
+
+#!/bin/bash
+yum update -y
+yum install -y install httpd
+service httpd start
+chkconfig httpd on
+
+
+
+mysql install bash script:
+#!/bin/bash
+yum update -y
+yum install -y mysql
+
+awslogs install
+
+#!/bin/bash
+yum update -y
+yum install -y awslogs
+ckconfig awslogs on
+
+

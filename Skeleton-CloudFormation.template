@@ -1,0 +1,8 @@
+Skeleton Template
+{
+    "Resources" : {
+        "Name-of-your-bucket" : {
+            "Type" : "resource type"
+            }
+        }
+}
